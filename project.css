@@ -157,3 +157,36 @@ body {
   display: none;
 }
 /* End Loading Wheel Styling */
+/* Navbar Styling */
+ul {
+    list-style-type: none;
+    width: 1200px;
+    margin-left: 25px;
+    margin-top: -20px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #E3E3E3;
+    text-decoration:  none;
+}
+
+li {
+    float: left;
+    width: 120px;
+}
+
+li a {
+    display: block;
+    color: #464646;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li:first-child{
+    margin-left: 300px;
+}
+li a:hover {
+    text-decoration:  none;
+    color: #464646;
+    background-color: #A0A0A0;
+}
+/* End Navbar Styling */
