@@ -163,7 +163,14 @@ body {
     font-size: .9em;
     margin-left: 25px;
     margin-top: -20px;
-    background-color: #E8E8E8 !important;
+    background-color: #E9E9E9 !important;
+}
+.navbar-nav > li{
+  padding-left:30px;
+  padding-right:30px;
+}
+.navbar-nav:first-child{
+    margin-left: 200px;
 }
 
  /* End Navbar Styling */
