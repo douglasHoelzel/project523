@@ -73,7 +73,7 @@ body {
   padding-right:30px;
 }
 .navbar-nav:first-child{
-    margin-left: 200px;
+    margin-left: 100px;
 }
  /* End Navbar Styling */
  #navbarDropdownMenuLink{
@@ -98,11 +98,29 @@ body {
      font-family: 'Comfortaa', cursive;
      font-weight: bold;
  }
+ #userRole1{
+     position: absolute;
+     display: inline-block;
+     margin-left: -118px;
+     margin-top: 170px;
+     font-size: .7em;
+     font-family: 'Comfortaa', cursive;
+     font-weight: bold;
+ }
  #userIcon2{
      position: absolute;
      display: inline-block;
      margin-left: -115px;
      margin-top: 150px;
+     font-family: 'Comfortaa', cursive;
+     font-weight: bold;
+ }
+ #userRole2{
+     position: absolute;
+     display: inline-block;
+     margin-left: -116px;
+     margin-top: 170px;
+     font-size: .7em;
      font-family: 'Comfortaa', cursive;
      font-weight: bold;
  }
@@ -114,11 +132,29 @@ body {
      font-family: 'Comfortaa', cursive;
      font-weight: bold;
  }
+ #userRole3{
+     position: absolute;
+     display: inline-block;
+     margin-left: -116px;
+     margin-top: 170px;
+     font-size: .7em;
+     font-family: 'Comfortaa', cursive;
+     font-weight: bold;
+ }
  #userIcon4{
      position: absolute;
      display: inline-block;
      margin-left: -105px;
      margin-top: 150px;
+     font-family: 'Comfortaa', cursive;
+     font-weight: bold;
+ }
+ #userRole4{
+     position: absolute;
+     display: inline-block;
+     margin-left: -112px;
+     margin-top: 170px;
+     font-size: .7em;
      font-family: 'Comfortaa', cursive;
      font-weight: bold;
  }
@@ -142,9 +178,16 @@ body {
      margin-left: -90px;
  }
  #googleDoc{
-     margin-left: 100px;
+     margin-left: 210px;
      border: 2px solid #E9E9E9;
      border-radius: 5px;
      height: 770px;
-     width: 1000px;
+     width: 770px;
+ }
+ #projectDetails{
+     width: 900px;
+     margin-left: 150px;
+ }
+ #googleCalendar{
+     margin-left: 200px;
  }
