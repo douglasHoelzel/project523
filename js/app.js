@@ -12,6 +12,9 @@ app.config(function($routeProvider) {
     .when("/meetingSchedule", {
         templateUrl : "meetingSchedule.html"
     })
+    .when("/teamRules", {
+        templateUrl : "teamRules.html"
+    })
     .when("/home", {
         templateUrl : "home.html"
     });
