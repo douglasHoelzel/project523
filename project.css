@@ -75,5 +75,10 @@ body {
 .navbar-nav:first-child{
     margin-left: 200px;
 }
-
  /* End Navbar Styling */
+ #navbarDropdownMenuLink{
+     cursor: pointer;
+ }
+ #headingPadder{
+     padding-top: 180px;
+ }
