@@ -81,4 +81,51 @@ body {
  }
  #headingPadder{
      padding-top: 180px;
+     padding-bottom: 40px;
+ }
+ .userIcon{
+     height: 130px;
+     width: 130px;
+     display: inline-block;
+     margin-left: 130px;
+     margin-bottom: 20px;
+ }
+ #userIcon1{
+     position: absolute;
+     display: inline-block;
+     margin-left: -125px;
+     margin-top: 150px;
+     font-family: 'Comfortaa', cursive;
+     font-weight: bold;
+ }
+ #userIcon2{
+     position: absolute;
+     display: inline-block;
+     margin-left: -115px;
+     margin-top: 150px;
+     font-family: 'Comfortaa', cursive;
+     font-weight: bold;
+ }
+ #userIcon3{
+     position: absolute;
+     display: inline-block;
+     margin-left: -125px;
+     margin-top: 150px;
+     font-family: 'Comfortaa', cursive;
+     font-weight: bold;
+ }
+ #userIcon4{
+     position: absolute;
+     display: inline-block;
+     margin-left: -105px;
+     margin-top: 150px;
+     font-family: 'Comfortaa', cursive;
+     font-weight: bold;
+ }
+ #teamHeader{
+     padding-bottom: 20px;
+     font-family: 'Comfortaa', cursive;
+     font-weight: bold;
+     font-size: 2em;
+     text-align: center;
  }

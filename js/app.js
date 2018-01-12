@@ -9,7 +9,7 @@ app.config(function($routeProvider) {
     .when("/contactUs", {
         templateUrl : "contactUs.html"
     })
-    .when("/blue", {
-        templateUrl : "blue.htm"
+    .when("/home", {
+        templateUrl : "home.html"
     });
 });
