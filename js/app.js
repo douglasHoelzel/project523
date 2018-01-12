@@ -1,6 +1,4 @@
 app.config(function($routeProvider) {
-    console.log("app.js print statement");
-
     $routeProvider
     .when("/", {
         templateUrl : "home.html"
