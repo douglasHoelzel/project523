@@ -141,3 +141,10 @@ body {
      margin-top: 185px;
      margin-left: -90px;
  }
+ #googleDoc{
+     margin-left: 100px;
+     border: 2px solid #E9E9E9;
+     border-radius: 5px;
+     height: 770px;
+     width: 1000px;
+ }
