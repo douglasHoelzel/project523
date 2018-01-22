@@ -191,3 +191,55 @@ body {
  #googleCalendar{
      margin-left: 200px;
  }
+ .emailEveryoneButton {
+  color: #ffffff;
+  background-color: #DEDEDE;
+  border-color: #FFFFFF;
+  position: absolute;
+  margin-left: -500px;
+  margin-top: 300px;
+  border-radius: 6px 6px 6px 6px;
+  cursor: pointer;
+  font-family: 'Comfortaa', cursive;
+  height: 38px;
+}
+
+.emailEveryoneButton:hover,
+.emailEveryoneButton:focus,
+.emailEveryoneButton:active,
+.emailEveryoneButton.active,
+.open .dropdown-toggle.emailEveryoneButton {
+  color: #ffffff;
+  background-color: #A3A3A3;
+  border-color: #FFFFFF;
+}
+
+.emailEveryoneButton:active,
+.emailEveryoneButton.active,
+.open .dropdown-toggle.emailEveryoneButton {
+  background-image: none;
+}
+
+.emailEveryoneButton.disabled,
+.emailEveryoneButton[disabled],
+fieldset[disabled] .emailEveryoneButton,
+.emailEveryoneButton.disabled:hover,
+.emailEveryoneButton[disabled]:hover,
+fieldset[disabled] .emailEveryoneButton:hover,
+.emailEveryoneButton.disabled:focus,
+.emailEveryoneButton[disabled]:focus,
+fieldset[disabled] .emailEveryoneButton:focus,
+.emailEveryoneButton.disabled:active,
+.emailEveryoneButton[disabled]:active,
+fieldset[disabled] .emailEveryoneButton:active,
+.emailEveryoneButton.disabled.active,
+.emailEveryoneButton[disabled].active,
+fieldset[disabled] .emailEveryoneButton.active {
+  background-color: #DEDEDE;
+  border-color: #FFFFFF;
+}
+
+.emailEveryoneButton .badge {
+  color: #DEDEDE;
+  background-color: #ffffff;
+}
