@@ -118,7 +118,7 @@ body {
  #userRole2{
      position: absolute;
      display: inline-block;
-     margin-left: -116px;
+     margin-left: -100px;
      margin-top: 170px;
      font-size: .7em;
      font-family: 'Comfortaa', cursive;
@@ -135,7 +135,7 @@ body {
  #userRole3{
      position: absolute;
      display: inline-block;
-     margin-left: -116px;
+     margin-left: -100px;
      margin-top: 170px;
      font-size: .7em;
      font-family: 'Comfortaa', cursive;
