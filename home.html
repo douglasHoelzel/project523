@@ -1,12 +1,21 @@
 <div id="home">
     <div id="headingPadder"></div>
         <div id="projectDetails">
-            <p><span style="font-weight: 400;">Concept</p>
-                <p>&nbsp;</p>
-            <p><span style="font-weight: 400;">The underlying purpose of our project is to provide an educational tool for the UNC economics department, specifically the quantitative financial economics program (QFE). At the present moment, there are python libraries (Pyfolio in particular) that provide the capacity to form and track portfolios over time. However, these libraries don&rsquo;t provide the ability to backtest in the sense that, knowing the past performance of an investable universe, you can optimize the weights of a set of assets within a portfolio over a period of time and compare with other portfolios. They also lack any form of intuitive user interface, and are designed primarily for algorithmic trading. </span></p>
-<p>&nbsp;</p>
-<p><span style="font-weight: 400;">From an educational perspective, the optimal set of weights changes over time, which in turn can be related to topics of interest for the QFE program. Particularly, this will related to the behavior of financial markets and portfolio optimization. In addition, our project will have an extensive visualization component, given there are many ways to present statistics related to portfolio performance and of use in an educational environment. Ultimately, our application aims to provide an intuitive user interface as well as extend upon the Pyfolio library (though not necessarily using the library itself) with the above functionality. </span></p>
-<p>&nbsp;</p>
-<p><span style="font-weight: 400;">As far as platform goes, our application will be exclusively web-based and will be hosted on Carolina Cloud Applications through the economics department account. It will also link from the QFE wordpress site. Data for the project will be sourced from Quandl, particularly the EOD (end-of-day) US equity database. Funding for this subscription is provided by the QFE program. </span></p>
+            <p><span style="font-weight: 400;">What are we building?</p>
+            <p><span style="font-weight: 400;">
+                Our project is focused on delivering an educational tool for the quantitative financial economic (QFE) program at UNC-Chapel Hill. Our client is Mike Aguilar, a professor of Economics at UNC. Specifically, our project deals with financial assets (primarily equities for now) and their optimization within a portfolio. Given a set of financial assets, our application will provide an intuitive interface with which a user can form a portfolio as well as well as observe optimal weightings of assets given a variety of factors ranging from rebalancing frequency to investor risk profile.</span></p>
+            <p>&nbsp;</p>
+            <p><span style="font-weight: 400;">Why are we building it?</p>
+            <p><span style="font-weight: 400;">
+                Currently, there exist libraries in Python that provide portfolio management and optimization functionality. However, these libraries often have no GUI or are challenging to use for less technical audiences. Furthermore, there is little to know emphasis on optimizing weights in the context of backtesting a portfolio. From a pedagogical standpoint, this could be an extremely useful tool to highlight underlying variation in macroeconomic conditions that may impact asset pricing. Thus, our goal is to extend the functionality present in Pyfolio and make it easier to use.  </span></p>
+            <p>&nbsp;</p>
+            <p><span style="font-weight: 400;">What technologies are you using?</p>
+            <p><span style="font-weight: 400;">
+                Our project will be purely web-based, though usability from mobile devices will be a consideration in terms of design. For our frontend, we will be using Facebook’s React framework and JavaScript using ECMAScript 2015 features. On our backend, we will be using Python (due to its Pandas, NumPy, and SciPy libraries). From a database perspective, we will likely use a standard relational database (SQLite more likely than not) but this is subject to change based on design decisions. </span></p>
+            <p>&nbsp;</p>
+
+
+
+
         </div>
 </div>
