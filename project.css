@@ -243,3 +243,10 @@ fieldset[disabled] .emailEveryoneButton.active {
   color: #DEDEDE;
   background-color: #ffffff;
 }
+#qfeLogo{
+    position: absolute;
+    margin-left: 950px;
+    margin-top: 5px;
+    height: 90px;
+    width: 200px;
+}
