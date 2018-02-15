@@ -27,6 +27,9 @@ app.config(function($routeProvider) {
     .when("/platformSelection", {
         templateUrl : "platformSelection.html"
     })
+    .when("/architectureDiagram", {
+        templateUrl : "architectureDiagram.html"
+    })
     .when("/home", {
         templateUrl : "home.html"
     });
