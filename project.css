@@ -184,6 +184,13 @@ body {
      height: 770px;
      width: 770px;
  }
+ #customGoogleDoc{
+     margin-left: 100px;
+     border: 2px solid #E9E9E9;
+     border-radius: 5px;
+     height: 770px;
+     width: 1000px;
+ }
  #projectDetails{
      width: 900px;
      margin-left: 150px;
