@@ -30,8 +30,8 @@ app.config(function($routeProvider) {
     .when("/architectureDiagram", {
         templateUrl : "architectureDiagram.html"
     })
-    .when("/ganttDiagram", {
-        templateUrl : "ganttDiagram.html"
+    .when("/ganttChart", {
+        templateUrl : "ganttChart.html"
     })
     .when("/home", {
         templateUrl : "home.html"
