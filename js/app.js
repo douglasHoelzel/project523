@@ -33,6 +33,9 @@ app.config(function($routeProvider) {
     .when("/ganttChart", {
         templateUrl : "ganttChart.html"
     })
+    .when("/techTalk", {
+        templateUrl : "techTalk.html"
+    })
     .when("/home", {
         templateUrl : "home.html"
     });
