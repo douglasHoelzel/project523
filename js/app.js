@@ -36,6 +36,9 @@ app.config(function($routeProvider) {
     .when("/techTalk", {
         templateUrl : "techTalk.html"
     })
+    .when("/testPlan", {
+        templateUrl : "testPlan.html"
+    })
     .when("/home", {
         templateUrl : "home.html"
     });
