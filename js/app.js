@@ -36,6 +36,12 @@ app.config(function($routeProvider) {
     .when("/testPlan", {
         templateUrl : "testPlan.html"
     })
+    .when("/clientHandoffPlan", {
+        templateUrl : "clientHandoffPlan.html"
+    })
+    .when("/documentationPlan", {
+        templateUrl : "documentationPlan.html"
+    })
     .when("/home", {
         templateUrl : "home.html"
     });

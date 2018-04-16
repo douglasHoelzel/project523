@@ -69,8 +69,8 @@ body {
     background-color: #E9E9E9 !important;
 }
 .navbar-nav > li{
-  padding-left:30px;
-  padding-right:30px;
+  padding-left:20px;
+  padding-right:20px;
 }
 .navbar-nav:first-child{
     margin-left: 0px;
